@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\SDK">
+      <UniqueIdentifier>{ece9c601-6a15-4b43-bc29-08ed3a72a4c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SDK\Tier0">
+      <UniqueIdentifier>{f05e0a14-c789-4fac-a8cb-972beeeaf21e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SDK\Tier1">
+      <UniqueIdentifier>{ec7d540b-4d2b-4097-b7e2-e6a6b48c8577}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DemoReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDemoFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Public\Tier1\characterset.cpp">
+      <Filter>Header Files\SDK\Tier1</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Public\Tier1\strtools.cpp">
+      <Filter>Header Files\SDK\Tier1</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Public\Tier1\utlbuffer.cpp">
+      <Filter>Header Files\SDK\Tier1</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CDemoFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Public\Tier0\BaseTypes.h">
+      <Filter>Header Files\SDK\Tier0</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Public\Tier0\dbg.h">
+      <Filter>Header Files\SDK\Tier0</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Public\Tier0\dbgflag.h">
+      <Filter>Header Files\SDK\Tier0</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Public\Tier0\memalloc.h">
+      <Filter>Header Files\SDK\Tier0</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Public\Tier0\memdbgon.h">
+      <Filter>Header Files\SDK\Tier0</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Public\Tier0\platform.h">
+      <Filter>Header Files\SDK\Tier0</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Public\Tier1\characterset.h">
+      <Filter>Header Files\SDK\Tier1</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Public\Tier1\CRC.h">
+      <Filter>Header Files\SDK\Tier1</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Public\Tier1\CUtlMemory.h">
+      <Filter>Header Files\SDK\Tier1</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Public\Tier1\CUtlString.h">
+      <Filter>Header Files\SDK\Tier1</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Public\Tier1\CUtlVector.h">
+      <Filter>Header Files\SDK\Tier1</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Public\Tier1\MD5.h">
+      <Filter>Header Files\SDK\Tier1</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Public\Tier1\strtools.h">
+      <Filter>Header Files\SDK\Tier1</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Public\Tier1\utlbuffer.h">
+      <Filter>Header Files\SDK\Tier1</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Public\Tier0\wchartypes.h">
+      <Filter>Header Files\SDK\Tier0</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Public\Tier0\commonmacros.h">
+      <Filter>Header Files\SDK\Tier0</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_demo.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
