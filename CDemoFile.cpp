@@ -136,6 +136,7 @@ demoheader_t* CDemoFile::ReadDemoHeader()
 	if (input.is_open() == false)
 	{
 		// waht the fok
+
 	}
 
 	// get length of file:
@@ -156,7 +157,7 @@ demoheader_t* CDemoFile::ReadDemoHeader()
 	m_pBuffer = buf;
 
 
-	bool bOk;
+	bool bOk; 
 	memset(&m_DemoHeader, 0, sizeof(m_DemoHeader));
 
 	if (!m_pBuffer || !m_pBuffer->IsValid())
